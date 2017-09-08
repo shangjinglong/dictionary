@@ -9,6 +9,7 @@
 namespace Shangjinglong\Dictionary;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Routing\Router;
 
 class DictionaryServiceProvider extends ServiceProvider
 {
@@ -20,6 +21,7 @@ class DictionaryServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        $this->setupRoutes($this->app->router);
         $this->publishes([
         ]);
     }
@@ -39,5 +41,13 @@ class DictionaryServiceProvider extends ServiceProvider
     public function providers()
     {
         return ['dictionary'];
+    }
+
+    public function setupRoutes(Router $router)
+    {
+        $router->group(['namespace' => 'Shangjinglong\Dictionary\Http\Controllers'], function($router)
+        {
+            require __DIR__.'/Http/routes.php';
+        });
     }
 }
