@@ -51,17 +51,17 @@ Open `config/app.php` and register the required service provider above your appl
 ## Usage
 
 ```php
-    namespace App\Http\Controllers;
-    use Shangjinglong\Dictionary\Dictionary;
+namespace App\Http\Controllers;
+use Shangjinglong\Dictionary\Dictionary;
 
-    class DictionaryController extends Controller
-    {
-        public  static function generate(){
-            $dictionary = new Dictionary();
-            $html = $dictionary->generate();
-            return $html;
-        }
+class DictionaryController extends Controller
+{
+    public  static function generate(){
+    $dictionary = new Dictionary();
+    $html = $dictionary->generate();
+    return $html;
     }
+}
 ```
 
 ## Support
