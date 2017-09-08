@@ -1,6 +1,12 @@
 {
     "name": "shangjinglong/dictionary",
     "description": "A toolkit that generates a database dictionary package for the Laravel and Lumen frameworks.",
+    "keywords": [
+        "mysql",
+        "database",
+        "laravel",
+        "lumen"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^5.5.9"
+        "php": "^5.5.9 || ^7.0 || ^7.1",
     },
     "autoload": {
         "psr-4": {
