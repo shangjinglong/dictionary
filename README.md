@@ -1,10 +1,10 @@
-##Dictionary
+# Dictionary
 
 The Dictionary package is meant to provide you, the developer, with a set of tools to help you easily and quickly generate your database dictionay. 
 Of course First make sure you want the database connection to be successful and add a comment for each field of each table.
 
 
-##Requirements
+## Requirements
 To install this package you will need:
 
  - Laravel 5.1+ or Lumen 5.1+
@@ -24,7 +24,7 @@ composer require shangjinglong/dictionary:1.0
 ```
 
 
-###Laravel
+### Laravel
 
 Open `config/app.php` and register the required service provider above your application providers.
 ```php
