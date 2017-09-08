@@ -4,11 +4,11 @@ The Dictionary package is meant to provide you, the developer, with a set of too
 
 ![](http://ovy41mzbo.bkt.clouddn.com/dictionary.png)
 
-###html format
+### HTML
 ![](http://ovy41mzbo.bkt.clouddn.com/html.png)
-###word format
+### Word
 ![](http://ovy41mzbo.bkt.clouddn.com/word.png)
-###excel format
+### Excel
 ![](http://ovy41mzbo.bkt.clouddn.com/excel.png)
 
 
