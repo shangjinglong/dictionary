@@ -1,6 +1,6 @@
 {
     "name": "shangjinglong/dictionary",
-    "description": "Generate tools for database dictionaries",
+    "description": "A toolkit that generates a database dictionary package for the Laravel and Lumen frameworks.",
     "type": "library",
     "license": "MIT",
     "authors": [
