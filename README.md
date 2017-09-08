@@ -1,19 +1,20 @@
-![](http://ovy41mzbo.bkt.clouddn.com/dictionary.png)
-
-
-
 # Dictionary
 
 The Dictionary package is meant to provide you, the developer, with a set of tools to help you easily and quickly generate your database dictionay. Of course First make sure you want the database connection to be successful and add a comment for each field of each table.
 
-### HTML
+![](http://ovy41mzbo.bkt.clouddn.com/dictionary.png)
+
+## html format
+
 ![](http://ovy41mzbo.bkt.clouddn.com/html.png)
-### Word
+
+## word format
+
 ![](http://ovy41mzbo.bkt.clouddn.com/word.png)
-### Excel
+
+## excel format
+
 ![](http://ovy41mzbo.bkt.clouddn.com/excel.png)
-
-
 
 ## Requirements
 
@@ -51,17 +52,17 @@ Open `config/app.php` and register the required service provider above your appl
 ## Usage
 
 ```php
-namespace App\Http\Controllers;
-use Shangjinglong\Dictionary\Dictionary;
+    namespace App\Http\Controllers;
+    use Shangjinglong\Dictionary\Dictionary;
 
-class DictionaryController extends Controller
-{
-    public  static function generate(){
-    $dictionary = new Dictionary();
-    $html = $dictionary->generate();
-    return $html;
+    class DictionaryController extends Controller
+    {
+        public  static function generate(){
+            $dictionary = new Dictionary();
+            $html = $dictionary->generate();
+            return $html;
+        }
     }
-}
 ```
 
 ## Support

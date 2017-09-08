@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "shangjinglong\\dictionary\\": "src"
+            "Shangjinglong\\Dictionary\\": "src"
         }
     }
 }
